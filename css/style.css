@@ -110,6 +110,7 @@ nav a:visited {
   text-align: left;
   margin-left: 330px;
   padding-bottom: 20px;
+  width: 100%;
 }
 .banner-block a {
   font-size: 27px;
@@ -167,14 +168,15 @@ nav a:visited {
 }
 /*_______________products___________________*/
 .top-products {
-  padding: 24px 150px 5px 150px;
+  padding: 20px 0 10px 0;
   background: url(../images/bg-banner.png);
 }
 .top-products p {
   font-size: 31px;
+  padding-left: 60px;
 }
 .products {
-  padding: 50px 0 65px 50px;
+  padding: 50px 0 65px 0px;
   background: #ffffff;
 }
 .products section {
@@ -184,7 +186,8 @@ nav a:visited {
   margin-bottom: 44px;
   height: 300px;
   padding: 0 80px 20px 80px;
-  margin-right: 40px;
+  margin-right: 20px;
+  margin-left: 20px
 }
 .products section img {
   display:block;
@@ -209,7 +212,10 @@ nav a:visited {
 /*_______________footer_________________________*/
 footer {
   background: #3cc3b5;
-  padding: 20px 0px 80px 100px;
+  padding: 20px 0px 80px 0px;
+}
+footer .col-md-3 {
+  padding-left: 50px;
 }
 footer ul {
   list-style-type: none;
