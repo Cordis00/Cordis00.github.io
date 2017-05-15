@@ -2,7 +2,10 @@
 font-family: Lobster;
 src: url(../fonts/Lobster1.4.otf);
 }
-
+@font-face {
+font-family: bebasneue;
+src: url(../fonts/bebasneue.ttf);
+}
 a {
   text-decoration: none;
 }
@@ -14,7 +17,7 @@ body {
   font-size: 21px;
   line-height: 1.105;
   color: #ffffff;
-  font-family: 'Bebas Neue', arial;
+  font-family: bebasneue;
 }
 .top-block {
   background: #ffffff;
