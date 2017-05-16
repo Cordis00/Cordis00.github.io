@@ -71,6 +71,9 @@ form {
 .bottom-block {
   background: #4ccfc1;
 }
+.nav_menu {
+  width: 100%;
+}
 nav {
   padding-top: 10px;
 
@@ -104,15 +107,14 @@ nav a:visited {
   text-align: left;
   font-size: 61px;
   line-height: 0.9;
-  margin-left: 330px;
+  float: left;
 }
 .text {
   font-family: 'Open Sans', sans-serif;
   font-size: 17px;
   line-height: 1.647;
   text-align: left;
-  margin-left: 330px;
-  padding-bottom: 20px;
+  float: left;
   width: 100%;
 }
 .banner-block a {
@@ -122,12 +124,16 @@ nav a:visited {
   padding: 10px 25px;
   border: 3px solid #ffffff;
   border-radius: 7px;
+  float: left;
 }
 .banner-block img {
   margin-left: 206px;
 }
 .carousel-indicators {
   bottom: -30px;
+}
+.carousel-caption {
+  left: 44%;
 }
 /*___________Categories________________________________*/
 
@@ -137,21 +143,18 @@ nav a:visited {
 }
 .categories-block img {
   float: left;
-  padding-left: 25px;
 }
 .categories-block section {
-  float: right;
-  padding-right: 69px;
+  float: left;
+  margin-left: 40px;
 }
-.categories-block .col-md-4 {
+.categories_section {
   border-right: 1px solid #e7e7e7;
   padding: 24px 0;
   height: 190px;
 }
-#last-categoria {
+.last-categoria {
   border: none;
-  padding-left: 10px;
-  padding-right: 40px;
 }
 .categories-block h3 {
   color: #afafaf;
@@ -188,29 +191,32 @@ nav a:visited {
   border-radius: 2px;
   margin-bottom: 44px;
   height: 300px;
-  padding: 0 80px 20px 80px;
+
   margin-right: 20px;
   margin-left: 20px
 }
 .products section img {
   display:block;
   margin: 20px auto;
+  height: 126px;
 }
 #heel {
-  margin-left: -19px;
-  width: 115%;
+
 }
 .products section span {
   color: #afafaf;
   font-size: 27px;
   line-height: 1.5;
+  display: block;
+  text-align: center;
 }
-.products section a {
+.products span a {
   color: #ffffff;
   padding: 6px 10px;
   background: #3cc395;
   border-radius: 2px;
   margin-left: 15px;
+  font-size: 21px;
 }
 /*_______________footer_________________________*/
 footer {
@@ -233,4 +239,11 @@ footer a {
   font-size: 15px;
   line-height: 1.866;
   font-family: 'Open Sans', sans-serif;
+}
+
+
+/*________________1199px________________________________*/
+
+@media screen and (max-width: 1199px) {
+
 }
