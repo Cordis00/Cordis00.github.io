@@ -35,7 +35,7 @@ header {
   color: #3cc3b5;
 }
 input[type="text"]{
-  width: 90%;
+  width: 87%;
   color: #333;
   outline: none;
 }
@@ -76,7 +76,6 @@ form {
 }
 nav {
   padding-top: 10px;
-
 }
 nav a {
   text-transform: uppercase;
@@ -91,11 +90,15 @@ nav a:visited {
   color: #ffffff;
 }
 .list-inline > li {
-  padding: 0 21px;
+  padding: 0 16.6px;
   border-right: 2px solid #ffffff;
 }
 .list-inline > li:last-child {
   border: none;
+}
+/*_________________nav-menu___________________________*/
+.nav_bar {
+  display: none;
 }
 /*_________________banner_________________*/
 .banner-block {
@@ -127,30 +130,26 @@ nav a:visited {
   float: left;
 }
 .banner-block img {
-  margin-left: 206px;
+  margin-left: 15%;
 }
 .carousel-indicators {
   bottom: -30px;
 }
 .carousel-caption {
-  left: 44%;
+  left: 45%;
+  width: 100%;
 }
 /*___________Categories________________________________*/
 
 .categories-block {
   background: #ffffff;
-
 }
 .categories-block img {
   float: left;
 }
-.categories-block section {
-  float: left;
-  margin-left: 40px;
-}
 .categories_section {
   border-right: 1px solid #e7e7e7;
-  padding: 24px 0;
+  padding: 24px 5px 0px 35px;
   height: 190px;
 }
 .last-categoria {
@@ -160,17 +159,17 @@ nav a:visited {
   color: #afafaf;
   font-size: 27px;
   line-height: 0.926;
-  float: right;
+  margin-left: 30px;
+  display: inline-block;
 }
 .categories-block a {
-  clear: right;
-  float: right;
+  display: inline-block;
+  margin-top: 10px;
   color: #ffffff;
   font-size: 19px;
   background: #3cc395;
   padding: 9px 15px;
   border-radius: 2px;
-  margin-right: 15px;
 }
 /*_______________products___________________*/
 .top-products {
@@ -200,8 +199,8 @@ nav a:visited {
   margin: 20px auto;
   height: 126px;
 }
-#heel {
-
+.products_hide {
+  display: none;
 }
 .products section span {
   color: #afafaf;
@@ -242,8 +241,168 @@ footer a {
 }
 
 
-/*________________1199px________________________________*/
+/*________________media________________________________*/
 
-@media screen and (max-width: 1199px) {
+@media (min-width: 768px) {
+  .list-inline > li {
+    padding: 0 12px;
+  }
+  nav a {
+    font-size: 19px;
+  }
+  .banner-block img {
+    margin-left: 10%;
+  }
+  .categories_section {
+    padding-left: 5px;
+  }
+  .categories-block h3 {
+    margin-left: 20px;
+  }
+  .products section {
+    margin-right: 0;
+    margin-left: 0;
+  }
 
+}
+
+@media (max-width: 861px) {
+  form {
+    padding: 0;
+    margin-top: 15px;
+    width: 90%;
+  }
+  input[type="text"] {
+    width: 85%;
+  }
+  .list-inline > li {
+    padding: 0 8px;
+  }
+  .list-inline > li:first-child {
+    padding-left: 0;
+  }
+  .banner-block img {
+    margin-left: 5%;
+  }
+  .categories_section {
+    padding-left: 55px;
+  }
+  .categories-block h3 {
+    clear: left;
+    float: left;
+    text-align: center;
+  }
+  .categories_section {
+    height: 281px;
+  }
+  .last-categoria {
+    padding-top: 29px;
+  }
+  .last-categoria img {
+    margin-left: 20px;
+  }
+  .img_shoes {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  form {
+    width: 80%;
+  }
+  input[type="text"] {
+    width:
+  }
+  .banner-block img {
+    margin-left: 0.5%;
+  }
+  .banner-block h1 {
+    font-size: 45px;
+  }
+  .text {
+    font-size: 14px;
+  }
+  .banner-block a {
+    font-size: 18px;
+  }
+  .categories_section {
+    padding-left: 35px;
+  }
+  .list-inline {
+    display: none;
+  }
+  .nav_bar {
+    display: block;
+    float: right;
+  }
+  .img_banner {
+    width: 42%;
+  }
+  .products_hide {
+    display: block;
+  }
+  .products section {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .categories_small {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .footer_hide {
+    display: none;
+  }
+}
+
+@media (max-width: 559px) {
+  .buy {
+    display: none;
+  }
+  form {
+    float: right;
+    width: 83%;
+    margin-left: 10px;
+  }
+  input[type="text"] {
+    width: 82%;
+  }
+  .fa-shopping-basket {
+    float: right;
+  }
+  .banner-block {
+    background-size: contain;
+  }
+  .carousel-inner > .item {
+    height: 565px;
+  }
+  .img_banner {
+    width: 50%;
+  }
+  .banner-block img {
+    margin-left: 24%;
+  }
+  .carousel-caption {
+    padding-bottom: 0;
+    width: 29%;
+    left: 35%;
+  }
+  .banner-block h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .text {
+    font-size: 12px;
+    text-align: center;
+  }
+  .banner-block a {
+    font-size: 14px;
+    padding: 5px 15px;
+    margin-left: 37px;
+  }
+  .small_products {
+    width: 100%;
+  }
+  .categories_section {
+    padding-left: 11px;
+  }
 }
