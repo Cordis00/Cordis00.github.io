@@ -19,6 +19,17 @@ body {
   color: #ffffff;
   font-family: bebasneue;
 }
+.categories-block img, .products img {
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+  cursor: pointer;
+}
+.categories-block img:hover, .products img:hover {
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+}
 .top-block {
   background: #ffffff;
 }
@@ -37,10 +48,11 @@ header {
 input[type="text"]{
   width: 87%;
   color: #333;
-  outline: none;
 }
 button {
   float: right;
+  outline: none;
+  padding-top: 1px;
 }
 input, button {
   background: transparent;
@@ -84,6 +96,7 @@ nav a {
 }
 nav a:hover {
   color: #ffffff;
+  text-decoration: underline;
 }
 nav a:visited {
   text-decoration: none;
@@ -140,6 +153,9 @@ nav a:visited {
   border-radius: 7px;
   float: left;
 }
+.banner-block a:hover {
+  background-color: #099c8d;
+}
 .banner-block img {
   margin-left: 15%;
 }
@@ -182,6 +198,9 @@ nav a:visited {
   background: #3cc395;
   padding: 9px 15px;
   border-radius: 2px;
+}
+.categories-block a:hover {
+  background-color: #36ad84;
 }
 /*_______________products___________________*/
 .top-products {
@@ -228,6 +247,9 @@ nav a:visited {
   border-radius: 2px;
   margin-left: 15px;
   font-size: 21px;
+}
+.products span a:hover {
+  background-color: #3fa984;
 }
 /*_______________footer_________________________*/
 footer {
