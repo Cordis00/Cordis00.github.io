@@ -24,7 +24,7 @@
       <div class="container-fluid">
         <header>
           <div class="row">
-            <div class="col-md-2 col-sm-2 col-xs-2 text-center">
+            <div class="col-md-2 col-sm-2 col-xs-2 text-center logo_img">
               <a href="#" class="logo" title="logo">Aditii</a>
             </div>
             <div class="col-md-8 col-sm-7 col-xs-7 text-center">
@@ -33,7 +33,7 @@
                 <button><img src="images/search.png" alt="search"></button>
               </form>
             </div>
-            <div class="col-md-2 col-sm-3 col-xs-3">
+            <div class="col-md-2 col-sm-3 col-xs-3 bask_img">
               <i class="fa fa-shopping-basket" aria-hidden="true"></i>
               <p class="buy">$300</p>
             </div>
@@ -46,6 +46,13 @@
       <div class="container nav_menu">
         <div class="row">
           <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+            <span class="search_bar" id="btn_search">
+              <i class="fa fa-search" aria-hidden="true"></i>
+            </span>
+            <form action="#" id="search_bar_form">
+              <input type="text">
+              <button><img src="images/search.png" alt="search"></button>
+            </form>
             <span class="nav_bar">
               <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
             </span>
@@ -151,19 +158,19 @@
     <div class="categories-block">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-4 col-sm-4 col-xs-4 categories_small">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 categories_small categories_xxs">
             <section class="categories_section">
               <img src="images/shoes.png" class="img-responsive img_shoes">
               <h3>branded<br>shoes<br><a href="#">shop</a></h3>
             </section>
           </div>
-          <div class="col-md-4 col-sm-4 col-xs-4">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 categories_xxs">
             <section class="categories_section">
               <img src="images/shirt.png" class="img-responsive">
               <h3>branded<br>tshirts<br><a href="#">shop</a></h3>
             </section>
           </div>
-          <div class="col-md-4 col-sm-4 col-xs-4">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 categories_xxs">
             <section class="categories_section last-categoria">
               <img src="images/pants.png" class="img-responsive">
               <h3>branded<br>shoes<br><a href="#">shop</a></h3>
@@ -259,7 +266,7 @@
     <footer>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-3 col-sm-3 col-xs-6 text-center">
+          <div class="col-md-3 col-sm-3 col-xs-6">
             <h3>featured sale</h3>
             <ul>
               <li><a href="#">Alexis Hudson</a></li>
@@ -272,7 +279,7 @@
               <li><a href="#">Cole Haan</a></li>
             </ul>
           </div>
-          <div class="col-md-3 col-sm-3 col-xs-6 text-center">
+          <div class="col-md-3 col-sm-3 col-xs-6">
             <h3>mens store</h3>
             <ul>
               <li><a href="#">Alexis Hudson</a></li>
@@ -321,5 +328,6 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.js"></script>
     <script src="js/salvattore.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
